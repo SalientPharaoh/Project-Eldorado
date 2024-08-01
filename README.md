@@ -18,7 +18,7 @@ Project Eldorado is an innovative investment platform that allows you to invest 
 
 ---
 
-### Hwo to Run
+### How to Run
 
 The dependencies of the project include:
 - [Next.js](https://nextjs.org/)
