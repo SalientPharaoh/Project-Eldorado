@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Eldorado
+Project Eldorado is an innovative investment platform that allows you to invest in early-stage startups and earn dividends and profits. We're not just offering you a stake in a startup; we're offering a stake in the future.
 
-## Getting Started
+---
+### Features
 
-First, run the development server:
+- Login and Signup: Our user-friendly interface makes it easy for anyone to join. Whether you're a seasoned investor or a first-timer, our platform is designed for you.
+
+- Market Tracking: Keep your finger on the pulse of the startup ecosystem with real-time market data. Know when to hold 'em and when to fold 'em!
+
+- Eldex: Think of it as the Sensex, but for startups. Eldex is our proprietary index, tracking the top 40 startups based on valuation. It's your go-to for a snapshot of the market's health.
+
+- Popular Startups: We highlight trending startups so you can catch the next big wave. Remember when Airbnb was just a place to rent air mattresses? We do!
+
+- Startup Price Charts: Each startup comes with its own price chart, detailing the highs, lows, opens, and closes. You can buy and sell shares just like on a stock exchange.
+
+- ISPO - Initial Startup Public Offering: Similar to IPOs or ICOs, our ISPOs allow you to bid on shares before they hit the market. It's like being a venture capitalist but without the yacht—yet!
+
+---
+
+### Hwo to Run
+
+The dependencies of the project include:
+- [Next.js](https://nextjs.org/)
+- [Node.js](https://nodejs.org/en/download/) (v14.x or later)
+- [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/getting-started/install)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+The steps to set up the project are as follows:
+- Clone the repository
+- Run the following commands
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Alterantively, It can be started on a development server using:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Screenshots
 
-## Learn More
+![Home Page](public/home-screen.png)
 
-To learn more about Next.js, take a look at the following resources:
+![Home Page](public/hero-conetnt.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Investor Dashboard](public/landing.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Login Page](public/login.png)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Listing Page](public/listing.png)
