@@ -47,7 +47,7 @@ npm run dev
 
 ![Home Page](public/home-screen.png)
 
-![Home Page](public/hero-conetnt.png)
+![Home Page](public/hero-content.png)
 
 ![Investor Dashboard](public/landing.png)
 
