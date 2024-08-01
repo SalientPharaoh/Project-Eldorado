@@ -14,11 +14,11 @@ const Footer = () => {
                 </div>
                 <div className="footer-links mb-4 md:mb-0 w-full h-full">
                     <ul className="flex space-x-5 justify-center items-center">
-                        <li><a href="/about" className="hover:text-[#ca628c] md:text-nowrap">About Us</a></li>
-                        <li><a href="/how-it-works" className="hover:text-[#ca628c] md:text-nowrap">How It Works</a></li>
-                        <li><a href="/contact" className="hover:text-[#ca628c] md:text-nowrap">Contact</a></li>
-                        <li><a href="/terms" className="hover:text-[#ca628c] md:text-nowrap">Terms of Service</a></li>
-                        <li><a href="/privacy" className="hover:text-[#ca628c] md:text-nowrap">Privacy Policy</a></li>
+                        <li><a href="/" className="hover:text-[#ca628c] md:text-nowrap">About Us</a></li>
+                        <li><a href="/" className="hover:text-[#ca628c] md:text-nowrap">How It Works</a></li>
+                        <li><a href="/" className="hover:text-[#ca628c] md:text-nowrap">Contact</a></li>
+                        <li><a href="/" className="hover:text-[#ca628c] md:text-nowrap">Terms of Service</a></li>
+                        <li><a href="/" className="hover:text-[#ca628c] md:text-nowrap">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div className="footer-social flex flex-row space-x-2 space-y-0 md:flex-col md:space-x-0 md:space-y-2 w-full h-full items-center justify-center">

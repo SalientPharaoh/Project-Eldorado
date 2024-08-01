@@ -116,6 +116,7 @@ const Dashboard = () => {
                             translateZ={20}
                             as="button"
                             className="bg-black dark:bg-white text-black dark:text-black border-black dark:border-white flex justify-center items-center space-x-2 rounded-3xl gradient-button-2"
+                            onClick={()=>{router.push('/detailed')}}
                           >
                             Track
                           </CardItem>
@@ -134,7 +135,7 @@ const Dashboard = () => {
                     >
                       <div className='flex flex-row w-full item-center justify-between'>
                         <div className='flex items-center font-bold'>
-                          DevelopersAI
+                        Hart Hagerty
                         </div>
                         <div className="flex items-center">
                           <div className="flex items-center text-green-500 text-xs">
@@ -150,6 +151,7 @@ const Dashboard = () => {
                             translateZ={20}
                             as="button"
                             className="bg-black dark:bg-white text-black dark:text-black border-black dark:border-white flex justify-center items-center space-x-2 rounded-3xl gradient-button-2"
+                            onClick={()=>{router.push('/detailed')}}
                           >
                             Track
                           </CardItem>
@@ -184,6 +186,7 @@ const Dashboard = () => {
                             translateZ={20}
                             as="button"
                             className="bg-black dark:bg-white text-black dark:text-black border-black dark:border-white flex justify-center items-center space-x-2 rounded-3xl gradient-button-2"
+                            onClick={()=>{router.push('/detailed')}}
                           >
                             Track
                           </CardItem>
